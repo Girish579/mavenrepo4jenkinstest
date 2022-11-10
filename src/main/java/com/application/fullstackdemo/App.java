@@ -71,31 +71,38 @@ public class App
 
        }
        String[] favFruits = {"Banana","Apple","Papaya","Orange"};
-       for (String x: favFruits) {
+       for (String x: favFruits) 
+       {
     	   System.out.println(x);
        }
        
        int x = 33;
        int y = 22;
-       
        if (x > y)
        {
-    	   System.out.println("X is Greater then y");
+    	   System.out.println("X is Greater than y");
        }
        for(int i=1; i<10; i++)
        {
     	   System.out.println(i);
        }
-		
-	String[] weekdays = {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
-	for (String x1: weekdays){
+	   String[] weekdays = {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
+	   for (String x1: weekdays)
+	   {
 		System.out.println(x1);	
-	}
-      
-        
-    }
-	
-	public static void print(String value){
+	   }
+	   int n = 10, firstTerm = 0, secondTerm = 1;
+	   System.out.println("Fibonacci Series till " + n + " terms:");
+   	   for (int i = 1; i <= n; ++i) 
+	   {
+	      System.out.print(firstTerm + "\t ");
+	      int nextTerm = firstTerm + secondTerm;
+	      firstTerm = secondTerm;
+	      secondTerm = nextTerm;
+	    }
+       }
+	public static void print(String value)
+	{
 		
 		System.out.println(value);
 		
