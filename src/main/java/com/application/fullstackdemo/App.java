@@ -4,12 +4,10 @@ package com.application.fullstackdemo;
  * Hello world!
  *
  */
-<<<<<<< HEAD
+
 public class App {
-=======
-public class App 
-{
-    	
+
+	 
 	public static void main( String[] args )
     {
 		
@@ -58,12 +56,6 @@ public class App
         String msg = "Welcome to Java World!";
         
        
-        print(msg);
-
-        print(Integer.toString(msg.length()));
-        
-        print(msg.toLowerCase());
-        print(msg.toUpperCase());
         
        String myFavNo = "26";
        int myFavNoInt = Integer.parseInt(myFavNo);
@@ -90,34 +82,13 @@ public class App
     	   System.out.println(i);
        }
 		
-	String[] weekdays = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-	for (string x: weekdays){
-		System.out.println(x);	
+	String[] weekdays = {"Sun","Mon","Tue","Wed","Thu","Fri","Sat"};
+	for (String x1: weekdays){
+		System.out.println(x1);	
 	}
       
         
     }
->>>>>>> 20b19fcc7a03d2e3734c1733012bade29e992a39
-	
-	public static void main(String[] args) {
-		
-		Student std = new Student("Girish","Java","Hyd","9988998899");
-
-		std.displayStdDetails();
-		
-		std.setStdName("Keerti");
-		
-		//std.displayStdDetails();
-		
-		String city = std.getStdCity();
-		System.out.println(city);
-		
-		String Name = std.getStdName();
-		System.out.println(Name);
-
-		std.displayStdDetails();
-
-		
-	}
-
 }
+
+	

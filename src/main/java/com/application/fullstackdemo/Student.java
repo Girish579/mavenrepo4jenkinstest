@@ -66,4 +66,9 @@ public class Student {
 
 	}
 
+	public static void main(String[] args)
+	{
+		Student std = new Student("Sarada","Java","Guntur","4569");
+		std.displayStdDetails();
+	}
 }
