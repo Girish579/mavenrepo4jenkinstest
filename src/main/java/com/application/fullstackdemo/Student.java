@@ -73,8 +73,6 @@ public class Student
 	
 	std.setStdName("Keerthi");
 	
-	//std.displayStdDetails();
-	
 	String city = std.getStdCity();
 	System.out.println(city);
 	

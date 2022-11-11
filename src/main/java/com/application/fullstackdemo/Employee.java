@@ -85,14 +85,14 @@ public class Employee
 	}
 	public static void main(String[] args) 
 	{
-		Employee emp = new Employee("Girish",25000.00,"Jr.Developer",123,"9988998899","8/5/3, Hyderabad, Sangareddy");
-
+		Employee emp = new Employee("Girish",35000.00,"Sr.Developer",123,"9988998899","8/5/3, Hyderabad, Sangareddy");
 		emp.displayEmpDetails();
 		
-		emp.setEmpName("Keerti");
+		System.out.print("\n");
+		emp.setEmpName("Keerthi");
 		emp.setEmpSal(30000.00);
-		emp.setEmpDes("Sr.Developer");
-		emp.setEmpId(1);
+		emp.setEmpDes("Jr.Developer");
+		emp.setEmpId(456);
 		emp.setEmpPhone("9876543210");
 		emp.setEmpAddress("h-no 8/87, j.p.colony, hyderabad.");
 		
@@ -114,6 +114,5 @@ public class Employee
 		String Address = emp.getEmpAddress();
 		System.out.println(Address);
 		
-		emp.displayEmpDetails();
 	}
 }
